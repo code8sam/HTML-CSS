@@ -39,17 +39,28 @@ li {
   font-size: 20px;
 }
 
+/* footer p {
+  font-size: 16px;
+} */
+
+#copyright {
+  font-size: 16px;
+}
+
+/* Better way to avoid Conflict */
+
 /*
-footer p {
+article header p {
   font-size: 16px;
 }
 */
 
-/* Better way to avoid Conflict */
+/* Best Way to avoid Conflict is to use ID SELECTOR */
 
-article footer p {
-  font-size: 16px;
+#author {
+  font-style: italic;
 }
+
 /* 
 h1 {
   font-size: 26px;
