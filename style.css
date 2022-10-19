@@ -203,6 +203,7 @@ a:active {
   color: yellow;
 }
 
+/* Important ! ---> the highest priority */
 footer p {
-  color: green;
+  color: green !important;
 }
