@@ -15,12 +15,17 @@ body {
   border-top: 10px solid #1098ad;
 }
 
+.container {
+  width: 700px;
+}
+
 .main-header {
   background-color: #f7f7f7;
   /* padding: 20px; */
   /* top-bottom and left-right */
   padding: 20px 40px;
   margin-bottom: 60px;
+  height: 80px;
 }
 
 nav {
@@ -42,6 +47,7 @@ aside {
   /* padding-top: 50px;
   padding-bottom: 50px; */
   padding: 50px 0;
+  width: 500px;
 }
 /* h1,
 h2,
@@ -236,6 +242,11 @@ a:hover {
 a:active {
   background-color: black;
   font-style: italic;
+}
+
+.post-image {
+  width: 100%;
+  height: auto;
 }
 
 /* Concept of "Conflicts Between Selectors" */
