@@ -17,6 +17,9 @@ body {
 
 .container {
   width: 700px;
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin: 0 auto;
 }
 
 .main-header {
