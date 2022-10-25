@@ -28,7 +28,7 @@ body {
   /* top-bottom and left-right */
   padding: 20px 40px;
   margin-bottom: 60px;
-  height: 80px;
+  /* height: 80px; */
 }
 
 nav {
@@ -250,6 +250,25 @@ a:active {
 .post-image {
   width: 100%;
   height: auto;
+}
+
+nav a:link {
+  /* Demo of Inline element to block element conversion */
+
+  /* background-color: orangered;
+  margin: 20px;
+  padding: 20px;
+  display: block; */
+
+  /* Demo of Inline-Block */
+
+  margin-right: 30px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+nav a:link:last-child {
+  margin-right: 0;
 }
 
 /* Concept of "Conflicts Between Selectors" */
