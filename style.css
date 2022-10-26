@@ -298,6 +298,10 @@ h1::first-letter {
   color: red;
 } */
 
+h3 + p::first-line {
+  color: red;
+}
+
 /* Concept of "Conflicts Between Selectors" */
 /* 
 #copyright {
