@@ -13,6 +13,7 @@ body {
   color: #444;
   font-family: sans-serif;
   border-top: 10px solid #1098ad;
+  position: relative;
 }
 
 .container {
@@ -269,6 +270,19 @@ nav a:link {
 
 nav a:link:last-child {
   margin-right: 0;
+}
+
+button {
+  font-size: 22px;
+  padding: 20px;
+  cursor: pointer;
+  margin-left: 700px;
+  position: absolute;
+  /* display: inline-block; */
+  /* top: 50px; */
+  bottom: 50px;
+  /* left: 50px; */
+  right: 50px;
 }
 
 /* Concept of "Conflicts Between Selectors" */
