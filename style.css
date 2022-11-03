@@ -367,6 +367,12 @@ nav {
   float: right;
 }
 
-.clear {
+/* .clear {
   clear: both;
+} */
+
+.clearfix::after {
+  clear: both;
+  content: "";
+  display: block;
 }
